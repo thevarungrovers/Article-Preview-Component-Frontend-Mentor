@@ -1,0 +1,130 @@
+.wrapper{
+    background: hsl(210, 46%, 95%) ;
+    padding: 30px 100px; 
+}
+
+.photo-drawers{
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+}
+.content-text{
+    padding: 18px;
+    background: #fff;
+    width: 312.5px;
+    border-radius: 0 0 15px 15px;
+}
+
+.info span{
+    display: inline-block;
+}
+
+.content-text-one, .profile-name{
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+}
+
+.content-text-two, .profile-date{
+    color: hsl(212, 23%, 69%);
+}
+
+.profile-image img{
+    height: 70px;
+    border-radius: 50%;
+    transform: translateY(-20px);
+}
+
+.share-white{
+    cursor: pointer;
+    float: right;
+}
+
+.profile-info{
+    line-height: 1;
+}
+
+.info{
+    padding-top: 10px;
+    margin-bottom: -15px;
+}
+
+
+.hidden-content{
+    height: 80px;
+    width: 312.4px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #34495e;
+    border-radius: 0 0 15px 15px;
+    transform: translate(12px,-86px);
+    padding-top: 20px;
+}
+.hidden-content span {
+    cursor: pointer;
+}
+
+.sm {
+    margin: 0 8px 0 8px ;
+}
+
+.share-black{
+    background-color: #b2bec2;
+    border-radius: 50%;
+    float: right;
+}
+.share-text{
+    color: hsl(212, 23%, 69%);
+}
+
+.share-black img{
+    height: 18px;
+    width: 18px;
+}
+
+.triangle{
+    visibility: hidden;
+    height: 8px;
+    width: 10px;
+    border-top: 15px solid #34495e;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    transform: translate(110px,16px);
+}
+
+@media screen and (min-width:600px){
+    .row{
+        padding: 152px 0 152px 0;
+    }
+    .photo-drawers{
+        height: 285px;
+    }
+    .content-text{
+        height: 285px;
+        width: 500px;
+        transform: translateX(-55px);
+        border-radius: 0 15px 15px 0;
+    }
+   .photo{
+        transform: translateX(182px);
+   }
+   .photo img {
+        border-radius: 15px 0 0 15px;
+   }
+   .hidden-content{
+    height: 50px;
+    width: 270.4px;
+    transform: translate(880px,-140px);
+    border-radius: 15px;
+    padding-top: 10px;
+
+   }
+   .share-black{
+       display: none;
+   }
+   .hidden-content span{
+       padding: 0 7px 0 7px;
+   }
+   .triangle{
+      visibility: visible;
+      
+   }
+}
