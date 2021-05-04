@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/article-preview-component-using-html-css-js-and-bootstrap-sjEX2Ybu6](https://www.frontendmentor.io/solutions/article-preview-component-using-html-css-js-and-bootstrap-sjEX2Ybu6)
+- Live Site URL: [https://article-preview-component-frontend-mentor.netlify.app/](https://article-preview-component-frontend-mentor.netlify.app/)
 
 ## My process
 
